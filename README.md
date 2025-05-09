@@ -36,7 +36,7 @@ SQLALCHEMY_DATABASE_URI=sqlite:///database.db
 4. Run the application:
 
 ```bash
-python SmartResearchAssistant/app_web.py
+python quetzal/app_web.py
 ```
 
 5. Open your browser and visit `http://localhost:5000`
