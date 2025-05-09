@@ -1,4 +1,4 @@
-# Smart Research Assistant
+# Quetzal - Smart Research Assistant
 
 A web-based research assistant that helps users process, organize, and chat with their documents using AI.
 
