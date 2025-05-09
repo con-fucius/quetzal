@@ -1,0 +1,50 @@
+# Environment variables
+.env
+*.env
+.env.*
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environment
+venv/
+env/
+.venv/
+
+# IDE and editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log files
+logs/
+*.log
+*.json # For batch processor logs
+
+# Database files
+*.db
+*.sqlite3
+database.db
+quetzal.db
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Uploads directory (if contents are user-generated and not part of repo)
+# Adjust if 'quetzal/uploads' should be tracked or contains essential repo files.
+quetzal/uploads/*
+# !quetzal/uploads/.gitkeep # Uncomment if the directory structure should exist
+
+# FAISS / Local Vector Store files (if applicable, though stack removed)
+*.pkl
+*.index
+
+# Other potentially sensitive files or build artifacts
+dist/
+build/
+*.egg-info/
+*.egg

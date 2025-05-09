@@ -1,0 +1,5 @@
+Write-Host "Starting PowerShell execution of Python script..."
+$output = & python -c "print('Hello from Python!')"
+Write-Host "Python output: $output"
+Write-Host "PowerShell script completed."
+$output | Out-File -FilePath "python_output.txt" 
